@@ -1,0 +1,55 @@
+body{
+
+    background-color: #d1d0d5;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-top: 140px;
+
+}
+.main_container{
+
+}
+
+.H1{
+    color: red;
+    display: block;
+    position: absolute;
+}
+.H2{
+    color: aquamarine;
+}
+.container{
+
+    background-color: #fff;
+    margin-bottom: 15px;
+    position: relative;
+    height: 130px;
+    margin: 20px;
+
+
+}
+.header{
+    width: 100%;
+    background-color: #00ac64;
+    min-height: 66px;
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    top: 0;
+}
+.container_filters{
+    min-height: 51px;
+    background-color: white;
+    display: block;
+    position: relative;
+
+}
+.header_container{
+    background-color: #d1d0d5;
+    position: fixed;
+    min-height: 125px;
+    width: 100%;
+    top: 0px;
+    z-index: 101;
+}
