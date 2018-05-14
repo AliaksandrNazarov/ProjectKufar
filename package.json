@@ -27,7 +27,9 @@
   },
   "author": "alitskevich",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
   "standard": {
     "parser": "babel-eslint",
     "ignore": [
