@@ -3436,7 +3436,8 @@ button.styler[disabled],input[type='button'].styler[disabled],input[type='submit
 }
 
 .windows .scrollbar-vista .list_tags_settings {
-    overflow-x: visible
+    
+    overflow-x: visible;
 }
 
 .windows .scrollbar-vista .list_tags_params {
@@ -9897,7 +9898,7 @@ h1,.h1 {
         bottom: 5%;
         top: initial;
         right: initial;
-        z-index: 2
+        z-index: 2;
     }
 
     .wrapper_type_listing .list_ads {
@@ -10107,7 +10108,15 @@ h1,.h1 {
     }
 
     .header__button_add {
-        right: 10%
+        right: 10%;   
+        position: fixed;
+        display: block;
+        left: 50%;
+        margin-left: -26.5px;
+        bottom: 5%;
+        top: initial;
+        right: initial;
+        z-index: 110;
     }
 
     .header__search_block {
