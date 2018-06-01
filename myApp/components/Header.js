@@ -1,6 +1,6 @@
 export class Header {
-    TEMPLATE() {
-        return /*html*/ `
+  TEMPLATE() {
+    return /* html */ `
         <header class="js_header scroll-to-fixed-fixed" style="z-index: 105; position: fixed; top: 0px; margin-left: 0px; width: 1573px; left: 0px;">
             <div class="header">
                 <a class="header__logo js_header__logo" ></a>
@@ -66,6 +66,6 @@ export class Header {
         </header>
         <div style="display: block; width: 1573px; height: 66px; float: none;"></div>
 
-        `
-    }
+        `;
+  }
 }

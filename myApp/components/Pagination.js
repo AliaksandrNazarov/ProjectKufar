@@ -1,6 +1,6 @@
-export class Pagination{
-    TEMPLATE(){
-        return /*html*/ `  
+export class Pagination {
+  TEMPLATE () {
+    return /* html */ `  
             <div class="pagination account_ads__pagination">
                 <nav class="pagination__nav">         
                     <a href="https://www.kufar.by/гродненская/Гродно/Дома?cu=BYR&amp;o=2" class="pagination__item">Пред. </a>
@@ -12,5 +12,5 @@ export class Pagination{
                 </nav> 
             </div>
         `
-       }
+  }
 }

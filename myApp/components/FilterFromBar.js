@@ -1,6 +1,6 @@
-export class FilterFromBar{
-    TEMPLATE(){
-        return /*html*/`
+export class FilterFromBar {
+  TEMPLATE () {
+    return /* html */`
             <form class="filter__form_bar">
                 <div class="list_filter_bar ">
                     <div class="list_filter_bar_view">
@@ -21,5 +21,5 @@ export class FilterFromBar{
                 </div>
             </form>
         `
-    }
+  }
 }
